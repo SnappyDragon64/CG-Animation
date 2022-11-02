@@ -18,7 +18,7 @@ GREEN = (132, 252, 20)
 BLUE = (36, 22, 240)
 WHITE = (255, 255, 255)
 
-FONT = ImageFont.truetype('Arial.ttf', 16)
+FONT = ImageFont.truetype('res/Arial.ttf', 16)
 
 
 def draw_pixel(graph_draw: ImageDraw, pos: tuple, color: tuple, swap: bool):

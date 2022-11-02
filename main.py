@@ -20,7 +20,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
         self.set_size(500, 375)
         self.setWindowTitle('Bresenham Line Generation Algorithm')
-        self.setWindowIcon(QtGui.QIcon('icon.png'))
+        self.setWindowIcon(QtGui.QIcon('res/icon.png'))
 
         self.set_text("X1", 100)
         self.set_text("Y1", 150)
@@ -67,8 +67,6 @@ class MainWindow(QtWidgets.QMainWindow):
         animate.generate_animation((self.x1, self.y1), (self.x2, self.y2), 'out/anim.gif')
 
         self.set_size(1226, 920)
-        self.setWindowTitle('Bresenham Line Generation Algorithm')
-        self.setWindowIcon(QtGui.QIcon('icon.png'))
 
         widget = QtWidgets.QWidget(self)
         label = QtWidgets.QLabel(widget)
