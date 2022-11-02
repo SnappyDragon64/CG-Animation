@@ -3,10 +3,6 @@ import animate
 import sys
 
 
-def get_frame(size: tuple):
-    return QtCore.QRect(0, 0, size[0], size[1])
-
-
 class MainWindow(QtWidgets.QMainWindow):
     x = 0
 
